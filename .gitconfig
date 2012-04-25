@@ -1,0 +1,8 @@
+[user]
+	name = Fernando Castor
+	mail = castor@cin.ufpe.br
+	email = castor@cin.ufpe.br
+[core]
+	editor = emacs
+[color]
+	status = auto
