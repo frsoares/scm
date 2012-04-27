@@ -1,0 +1,34 @@
+1) Crie no seu computador um diretório chamado "aula_ant".
+
+2) Crie nele o arquivo "build.xml". Defina o projeto, com nome "ProjetoAnt". Salve
+ o arquivo e execute "ant" na pasta.
+
+3) Adicione um alvo vazio chamado "init", e faça-o o default do projeto. Salve o 
+arquivo e execute "ant" na pasta.
+
+4) Faça com que o alvo "init" agora imprima a mensagem "Olá, mundo!".
+
+5) Defina propriedades "source", "build" e "dist", com os respectivos valores "src", 
+"bin" e "dist".
+
+6) Faça com que o alvo init crie os diretórios relacionados às propriedades do item
+anterior. Salve o arquivo e execute o ant.
+
+7) Adicione um alvo "clean" que remova os diretórios de "build" e "dist". Salve o 
+arquivo e execute este novo alvo.
+
+8) Adicione classes Java na pasta "source".
+
+9) Defina um alvo "compile" que compile código da "source" com saída para a "build". 
+Salve e execute o ant. Verifique os resultados.
+
+10) Defina alguns testes unitários. Após isso, crie um novo alvo "test", dependente
+de "compile", que os execute.
+
+11) Adicione um novo alvo "package", dependente dos testes, que empacote os arquivos 
+gerados em um jar, dado que os testes unitários tenham sido bem sucedidos, e gera o 
+javadoc.
+
+12) Crie um novo arquivo "build2.xml", que importe de "build.xml". Adicione um alvo 
+"success", que imprime uma mensagem de notificação de sucesso. Faça-o dependente de 
+"package", e coloque-o como alvo default do projeto. Salve e execute o ant.
