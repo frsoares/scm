@@ -1,0 +1,5 @@
+1) Crie o arquivo ivy.xml;
+
+2) Vá em mvnrepository.com, e procure a dependência log4j, e adicione-a ao seu ivy.xml.
+
+3) Adicione ao build.xml do teste Ant o namespace de Ivy; adicione no alvo init o ivy:retrieve.
