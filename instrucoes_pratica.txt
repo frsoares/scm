@@ -31,8 +31,8 @@ que mudou?
 11) Obtenha informações sobre seu histórico de commits, incluindo uma
 indicação das modificações que foram feitas.
 
-12) Faça mais algumas modificações e, para cada uma delas, faça o commit
-no repositório.
+12) Faça mais algumas modificações. A partir daqui, para cada modificação,
+faça o commit no repositório.
 
 13) Obtenha novamente o histórico de commits do repositório.
 
@@ -50,9 +50,9 @@ ver o que mudou.
 
 19) Torne teste o branch atual.
 
-20) Modifique readme.txt neste branch.
+20) Modifique mod.txt neste branch.
 
-21) Torne master o branch atual e modifique readme.txt. Note que as mudanças que você realizou enquanto no branch teste não estão mais visíveis. 
+21) Torne master o branch atual e modifique mod.txt. Note que as mudanças que você realizou enquanto no branch teste não estão mais visíveis. 
 
 22) Combine as modificações do branch teste com as do master, resolvendo eventuais conflitos. 
 
@@ -75,4 +75,5 @@ equipe.
 
 29) Modifique os arquivos que lá estão contidos e tente atualizar o
 repositório remoto. Todos os membros da equipe devem fazer isso e
-resolver conflitos à  medida que surgem. 
+resolver conflitos à medida que surgem. 
+
